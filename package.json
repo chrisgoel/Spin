@@ -1,0 +1,14 @@
+{
+  "name": "spin",
+  "version": "1.0.0",
+  "description": "An album-oriented music player",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Christopher Goel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
+}
