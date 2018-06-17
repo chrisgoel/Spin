@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^2.0.2"
+  },
+  "dependencies": {
+    "disconnect": "^1.2.1",
+    "jsmediatags": "^3.8.1",
+    "materialize-css": "^1.0.0-rc.1"
   }
 }

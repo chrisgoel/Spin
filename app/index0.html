@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Spin</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<a href="#" id="click-a"><i class="fa fa-bars"></i></a>
+		</div>
+		<div class="logo">
+			<img class="image" alt="" width="120" height = "120" src="assets/spinlogo.png" />
+			<a href="#">pin</a>
+		</div>
+		<div class="rightMenu">
+			<button id="dropbtn"></button>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="#">Main</a>
+					<a href="#">Songs</a>
+					<a href="#">Favourite</a>
+					<a href="#">Add More</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="overallcontain">
+		<audio id="myTrack">
+			<source src="music/track.flac" type="audio/flac" />
+		</audio>
+		<div class="mainbox">
+			<div class="roundbox">
+				<img src="photo.jpg" />
+				<div class="smallbox"></div>
+				<div class="button">
+					<a class="backward"><i class="fa fa-backward" aria-hidden="true"></i></a>
+					<button type="button" id="playButton"></button>
+					<a class="forward"><i class="fa fa-forward" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<button type="button" id="muteButton"></button>
+		</div>
+	</div>
+	<div class="playbar-box">
+		<div class="play-content">
+			<span class="text1">Serenade</span><br />
+			<span class="text2">Steve Miller Band</span>
+
+			<div id="defaultBar">
+				<div id="progressBar">
+
+				</div>
+			</div>
+		</div>
+		<div class="timer-text">
+			<span id="currentTime">00:00</span>
+			<span id="fullDuration">00:00</span>
+		</div>
+	</div>
+
+	<script src="music.js"></script>
+</body>
+</html>
